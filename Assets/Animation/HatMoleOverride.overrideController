@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: HatMoleOverride
+  m_Controller: {fileID: 9100000, guid: 15b9b2ae57e503d45b68898536c8ab9a, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 1827226128182048838, guid: aa64fdd7bcd651048bdbe7aea4975b38, type: 3}
+    m_OverrideClip: {fileID: 1827226128182048838, guid: aa64fdd7bcd651048bdbe7aea4975b38, type: 3}
+  - m_OriginalClip: {fileID: 7055355079433224739, guid: aa64fdd7bcd651048bdbe7aea4975b38, type: 3}
+    m_OverrideClip: {fileID: 7055355079433224739, guid: aa64fdd7bcd651048bdbe7aea4975b38, type: 3}
+  - m_OriginalClip: {fileID: -6747532249613684151, guid: aa64fdd7bcd651048bdbe7aea4975b38, type: 3}
+    m_OverrideClip: {fileID: -6747532249613684151, guid: aa64fdd7bcd651048bdbe7aea4975b38, type: 3}
