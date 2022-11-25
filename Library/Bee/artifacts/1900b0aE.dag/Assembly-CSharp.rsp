@@ -393,6 +393,7 @@
 "Assets/Scripts/PopupText.cs"
 "Assets/Scripts/ScoreHolder.cs"
 "Assets/Scripts/ScoreManager.cs"
+"Assets/Scripts/SoundManager.cs"
 "Assets/Scripts/UIManager.cs"
 -langversion:9.0
 

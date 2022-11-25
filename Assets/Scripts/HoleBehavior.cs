@@ -15,7 +15,7 @@ public class HoleBehavior : MonoBehaviour
         {
             Invoke("Spawn", Random.Range(0f, 7f));
         }
-        
+ 
     }
 
     void Spawn()
@@ -30,9 +30,13 @@ public class HoleBehavior : MonoBehaviour
             moleB.myParent = this.gameObject;
             moleB.score = moleB.score * GameManager.currentLevel;
             hasMole = true;
+
+            moleB.gotHit = false;
+            Debug.Log(moleB.gotHit);
         }
 
         Invoke("Spawn", Random.Range(3f, 7f));
+
     }
 
     int CalculateRarity()

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class MoleBehavior : MonoBehaviour
 {
@@ -8,17 +9,24 @@ public class MoleBehavior : MonoBehaviour
     Collider col;
     public int hitPoints = 1;
     public int score = 1;
-    [HideInInspector]public GameObject myParent;
+    [HideInInspector] public GameObject myParent;
 
     [HideInInspector] public Animator anim;
 
     public GameObject popupText;
+
+    //For sound effects
+    public bool gotHit;
+
+    [SerializeField] private AudioClip myClip;
 
     private void Start()
     {
         col = GetComponent<Collider>();
         col.enabled = false;
         anim = GetComponent<Animator>();
+        gotHit = false;
+       
     }
 
     public void DestroyObj()
@@ -36,6 +44,7 @@ public class MoleBehavior : MonoBehaviour
     public void GotHit()
     {
         hitPoints--;
+        
 
         if (hitPoints > 0)
         {
@@ -55,9 +64,19 @@ public class MoleBehavior : MonoBehaviour
             PopupText popText = pop.GetComponent<PopupText>();
             popText.ShowText(score);
 
+            //gotHit = true;
+
+
             Destroy(gameObject);
         }
     }
+
+    public void PlaySoundFX()
+    {
+        SoundManager.Instance.PlaySound(myClip);
+    }
+
+
 
 
 
