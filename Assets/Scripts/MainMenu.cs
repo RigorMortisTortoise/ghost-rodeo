@@ -11,5 +11,10 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadScene("Game");
     }
 
+    public void HowtoPlayButton()
+    {
+        SceneManager.LoadScene("HowtoPlay");
+    }
+
 
 }

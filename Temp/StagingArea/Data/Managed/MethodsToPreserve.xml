@@ -1,0 +1,9 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="MainMenu">
+			<method name="HowtoPlayButton"/>
+			<method name="PlayButton"/>
+			<method name="PlayButton"/>
+		</type>
+	</assembly>
+</linker>
