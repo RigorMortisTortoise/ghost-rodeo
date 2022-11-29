@@ -22,4 +22,20 @@ While the phrase taken literally is a little macabre, Ghost Rodeo spins the clic
 
 Ghost Rodeo is made for the Github Game Off 2022.
 
+Ghost Rodeo can be played here: [Ghost Rodeo Game](https://rigormortistortoise.itch.io/ghost-rodeo)
+
+Credits:
+Menu Song: Spaghetti Western Theme (Orchestral)
+
+Author: linxiaoma
+
+
+
+In-game Song: Spaghetti Western
+
+Author: Spring Spring
+
+
+
+Sound effects obtained from Zatsplat.com
 
